@@ -1,0 +1,13 @@
+name: My Custom Form Module
+type: module
+description: Module for select data and display on the page
+core_version_requirement: ^8 || ^9
+package: Custom
+version: 1.0
+
+dependencies:
+  - drupal:block
+  - drupal:config
+
+libraries:
+  - my_custom_form/global_style

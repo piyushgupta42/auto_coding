@@ -1,0 +1,6 @@
+my_custom_module.simple_custom_module:
+  title: "Custom Form module settings"
+  description: "example of how to make an admin settings page link"
+  parent: system.admin_config
+  route_name: my_custom_module.simple_custom_module
+  weight: 10
