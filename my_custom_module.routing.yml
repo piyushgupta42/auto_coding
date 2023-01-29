@@ -1,0 +1,7 @@
+my_custom_module.simple_custom_module:
+  path: "/simple-custom-form"
+  defaults:
+    _form: '\Drupal\my_custom_module\Form\SimpleCustomForm'
+    _title: "WHAT ARE YOU WORKING ON TODAY?"
+  requirements:
+    _access: "TRUE"
